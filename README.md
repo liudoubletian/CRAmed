@@ -26,8 +26,6 @@ Here, we show a brief example.
 ## Example
 
 ```r
-
-#CRAmed: A conditional randomization test for sparse and high-dimentional mediation analysis in microbiome data 
 library(CRAmed); packageVersion("CRAmed")
 
 #Simulate the ZINB data
