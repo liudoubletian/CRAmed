@@ -11,7 +11,7 @@ library(plyr)
 library(glmnet)
 library(pscl)
 ```
-Then you can also install CRAmed from github with:
+Then you can install CRAmed from github with:
 ```r
 install.packages("devtools")  
 devtools::install_github("liudoubletian/CRAmed") 
