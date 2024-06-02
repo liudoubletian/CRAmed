@@ -2,6 +2,8 @@
 
 This is an R package from "CRAmed: A conditional randomization test for sparse and high-dimentional mediation analysis in microbiome data ". 
 
+## Installation 
+
 Before you install the CRAmed, some other libraries are required to install, see the ```requirement.R```:
 ```r
 library(MASS)
@@ -15,6 +17,10 @@ install.packages("devtools")
 devtools::install_github("liudoubletian/CRAmed") 
 library(CRAmed)  
 ```
+## Vignette
+You can find the vignette at 
+
+
 Here, we show a brief example.
 
 Simulate an example
