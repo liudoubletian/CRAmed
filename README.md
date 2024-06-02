@@ -1,6 +1,6 @@
-# CRAmed: A conditional randomization test for sparse and high-dimentional mediation analysis in microbiome data 
+# CRAmed: A conditional randomization test for high-dimentional mediation analysis in sparse microbiome data
 
-This is an R package from "CRAmed: A conditional randomization test for sparse and high-dimentional mediation analysis in microbiome data ". 
+This is an R package from "CRAmed: A conditional randomization test for high-dimentional mediation analysis in sparse microbiome data". 
 
 ## Installation 
 
@@ -19,12 +19,11 @@ library(CRAmed)
 ```
 ## Vignette
 
-And the details of the manual could be found at the fold ../vignettes. 
+The details of the manual and the code used to generate each figure in the manuscript are provided in the fold ../vignettes. 
 
 Here, we show a brief example.
 
 ## Example
-
 
 ```r
 
