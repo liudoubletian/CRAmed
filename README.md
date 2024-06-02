@@ -19,7 +19,7 @@ library(CRAmed)
 ```
 ## Vignette
 
-The details of the manual and the code used to generate each figure in the manuscript are provided in the fold ../vignettes. 
+The details of the manual and the code used to generate each figure in the manuscript are provided in the fold ```../vignettes```. 
 
 Here, we show a brief example.
 
