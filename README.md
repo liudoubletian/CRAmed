@@ -18,12 +18,12 @@ devtools::install_github("liudoubletian/CRAmed")
 library(CRAmed)  
 ```
 ## Vignette
-You can find the vignette at 
 
+And the details of the manual could be found at the fold ../vignettes. 
 
 Here, we show a brief example.
 
-Simulate an example
+## Example
 
 
 ```r
@@ -34,10 +34,10 @@ library(CRAmed); packageVersion("CRAmed")
 #Simulate the ZINB data
 otu_n <- 50;num <- 50
 set.seed(1)
-sim_zinb.mat <- sim_zinb(otu_n,num)
+sim_zinb.mat <- sim_zinb(otu_n, num, alpha=-2, beta=2, gamma=-2)
 
 #Detect the mediators by CRAmed
-cramed.res <- dCRT_causal(M_mat=sim_zinb.mat$M_mat,Y=sim_zinb.mat$Y_mat, Exposure=sim_zinb.mat$t)
+cramed.res <- CRAmed(M_mat=sim_zinb.mat$M_mat, Y=sim_zinb.mat$Y, Exposure=sim_zinb.mat$trt, n.perm=10, CI=TRUE)
 cramed.res
 ```
 
