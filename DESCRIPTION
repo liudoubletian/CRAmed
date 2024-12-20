@@ -1,0 +1,18 @@
+Package: CRAmed
+Type: Package
+Title: CRAmed: A conditional randomization test for sparse and high-dimensional mediation analysis in microbiome data
+Version: 0.1.0
+Author: Tiantian Liu
+Maintainer: Tiantian Liu <1020222675@cpu.edu.cn>
+Description: We systematically developed a novel framework, a Conditional RAndomization test for MEDiation analysis (CRAmed), for sparse and high-dimensional microbiome data.
+License: Everyone
+Encoding: UTF-8
+LazyData: true
+Imports: MASS, glmnet, plyr, pscl, aster, phyloseq
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
